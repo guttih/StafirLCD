@@ -24,7 +24,7 @@ Use this function to print text or Icelandic characters to the LCD screen.  See 
 I am using a I2C, a four wire connection to my LCD.  The library does not care about the connection you are using, it just needs a reference to the  LiquidCrystal_I2C object.
 
 Let’s display this sentence on 16 column and 2 lines LCD. 
-Móðurmál mitt íslenska á fljótandi Kristal skjá.
+*   Móðurmál mitt íslenska á fljótandi Kristal skjá.
 
  ```sh
 #include <StafirLCD.h>
