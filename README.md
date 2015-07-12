@@ -12,6 +12,11 @@ the LiquidCrystal_I2C object and the pass it to the stafirLCD constructor.
 #### useChars
 Use this function to specify which Icelandic characters you will be using on the following screen.  This function needs to be called before you use the setCursor function on LiquidCrystal_I2C object.  It is properly best to call it right after you clear the screen. This function will save the characters you specify to memory on the Arduino and refer the LCD you are using to use that memory.
 
+You can set 2, 4 or 8 characters at a time with this function
+If you want to change a characters already stored in memory or add a characters to a memory at a specific location (0-7) you can do so with the function 
+useChar(byte address, int chStafur) 
+
+
 #### print
 Use this function to print text or Icelandic characters to the LCD screen.  See the example below
 
