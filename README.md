@@ -1,11 +1,7 @@
 # StafirLCD - Arduino library
-Arudino library for displaying Icelandic characters on a
-Liquid Crystal Display(LCD).
+Arudino library for displaying Icelandic characters on a Liquid Crystal Display(LCD).
 
-You can display up to 8 custom created characters on a LCD display.
-
-So, I drew all the Icelandic characters and made this library 
-to allow you to display them on a LCD screen.
+You can display up to 8 custom created characters on a LCD display.  Using that I was able to draw all the Icelandic characters and make this library to allow us to display them on a LCD screen.
 
 #### The constructor - StafirLCD
 When using the StafirLCD library you will need to tell it which LCD to use.  
@@ -64,5 +60,5 @@ void loop() {
 }
  ```
 
-
+Ég vona að þú getir notað þetta.  Go Arduino :)
 
