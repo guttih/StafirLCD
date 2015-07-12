@@ -14,7 +14,7 @@ Use this function to specify which Icelandic characters you will be using on the
 
 You can set 2, 4 or 8 characters at a time with this function
 If you want to change a characters already stored in memory or add a characters to a memory at a specific location (0-7) you can do so with the function 
-useChar(byte address, int chStafur) 
+*   useChar(byte address, int chStafur) 
 
 
 #### print
